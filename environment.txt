@@ -1,0 +1,4 @@
+tensorflow==1.13.1
+tensorflow-gpu==1.13.1
+nibabel==2.3.3
+h5py==2.9.0
