@@ -30,11 +30,6 @@ def access(dir_y,dir_y1):
     os.remove('temp.nii')
     os.remove('temp1.nii')
 
-#print('input the pic u want to compare(with no \'')
-#print('y:')
-#dir_y = input()
-#print('y1:')
-#dir_y1 = input()
 pathtruth = '/home/yex/unet/data/rest/truth/'
 pathpredict = '/home/yex/unet/data/rest/predict.bak/'
 a = np.sort(os.listdir(pathtruth))
